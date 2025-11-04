@@ -1,0 +1,48 @@
+.questions {
+    margin-top: 70px;
+    font-family: 'Aabraham James';
+}
+
+.Qest {
+    color: rgb(255, 85, 0);
+}
+
+.questions h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.questions div {
+    background: rgb(79, 79, 79);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    transition: background 0.3s;
+    max-width: 700px;
+}
+
+
+.questions button {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Aabraham James';
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questions button:hover {
+    color: rgb(255, 85, 0);
+  }
+
+  .questions div div {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    transition: max-height 0.3s ease-in-out;
+  }

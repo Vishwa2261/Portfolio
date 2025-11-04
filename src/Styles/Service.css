@@ -1,0 +1,86 @@
+.ServiceContainer {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+
+
+/* container2 */
+
+.servicesCon-2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-left: 100px;
+    font-family: 'Aabraham James';
+}
+
+.servicesCon-2 h1{
+    font-size: 100px;
+}
+.serv{
+    color: rgb(255, 85, 0);
+}
+
+.web{
+    background-color: rgb(36, 34, 34);
+    padding: 5%;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+.web:hover {
+    box-shadow: 4px 4px 20px   rgb(255, 85, 0);
+  }
+.web ul,li{
+    list-style: none;
+}
+.web h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(255, 85, 0);
+}
+
+.web h3{
+    margin-top: 10px;
+   
+}
+
+.web p{
+    margin-top: 5px;
+    color: rgb(163, 163, 163);
+}
+
+
+.mobile{
+    background-color: rgb(36, 34, 34);
+    padding: 5%;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+.mobile:hover {
+    box-shadow: 4px 4px 20px  rgb(255, 85, 0);
+  }
+.mobile ul,li{
+    list-style: none;
+}
+.mobile h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(255, 85, 0);
+}
+
+.mobile h3{
+    margin-top: 10px;
+   
+}
+
+.mobile p{
+    margin-top: 5px;
+    color: rgb(163, 163, 163);
+}
