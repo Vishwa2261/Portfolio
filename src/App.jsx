@@ -1,7 +1,7 @@
 
 import Navbar from "./Components/Navbar"
 import AnimatedRoutes from "./AnimatedRoutes";
-import CustomCursor from "./Components/cursor";
+import CustomCursor from "./Components/Cursor.jsx";
 import "../src/App.css"
 import AnimatedBackground from "./Components/background";
 
